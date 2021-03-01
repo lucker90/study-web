@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ball from './src/index.vue'
+import ball from './src/index2.vue'
 
 export default {
   name: 'App',
