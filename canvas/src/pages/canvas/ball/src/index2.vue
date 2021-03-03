@@ -13,12 +13,16 @@
 import { Ball } from "./js/ball.js";
 import { Canvas } from "./js/canvas.js";
 export default {
-  props: ["size"],
+  props: [],
   data() {
     return {
       timeInterval: 2,
       myCanvas: null,
       balls: [],
+      size: {
+        width: 800,
+        height: 600,
+      },
       ballsInfo: [
         {
           location: {
