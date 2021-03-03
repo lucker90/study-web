@@ -1,24 +1,19 @@
 <template>
-  <ball :size="size"></ball>
+  <ball></ball>
 </template>
 
 <script>
-import ball from './src/index2.vue'
+import ball from "./src/index2.vue";
 
 export default {
-  name: 'App',
-  data(){
-    return {
-      size:{
-        width:800,
-        height:600
-      }
-    }
+  name: "App",
+  data() {
+    return {};
   },
   components: {
-    ball
-  }
-}
+    ball,
+  },
+};
 </script>
 
 <style>
